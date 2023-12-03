@@ -1,0 +1,90 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0e2e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* container */
+.container{
+    display: flex;
+    height: 70vh;
+    width: 70vw;
+    margin-top: 100px;
+    box-shadow: 4px 10px 10px #000;
+}
+
+/* left section */
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 45rem;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10px 00px 00px 10px;
+}
+.form h1, .logos, p, input{
+    margin: 8px;
+}
+.form h1{
+    margin-top: 70px;
+}
+.form input{
+    border: none;
+    padding: 8px;
+    background-color: #d3d3d3;
+    color: #878787;
+}
+.form img{
+    height: 35px;
+    margin: 10px;
+}
+#btn-login{
+    background-color: #f0573d;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    padding: 5px 30px;
+}
+
+/* right section */
+.desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45rem;
+    background-color: #eb5368;
+    color: #fef6fe;
+    border-radius: 00px 10px 10px 00px;
+}
+.desc h1{
+    padding: 15px 83px;
+    text-align: center;
+}
+.desc p{
+    padding: 15px 75px;
+    text-align: center;
+}
+
+
+
+/* white
+#ffffff */
+
+/* pink
+#eb5368 */
+/* text in pink
+#fef6fe */
+
+/* orange
+#f0573d */
