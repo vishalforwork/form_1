@@ -15,12 +15,22 @@ body{
 }
 
 /* container */
+.space{
+    margin-top: 100px;
+}
 .container{
     display: flex;
     height: 70vh;
-    width: 70vw;
-    margin-top: 100px;
+    width: 65vw;
     box-shadow: 4px 10px 10px #000;
+    border-radius: 10px;
+    /* border: 4px solid red; */
+}
+.container .form{
+    border-radius: 10px 00px 00px 10px;
+}
+.container .desc{
+    border-radius: 00px 10px 10px 00px;
 }
 
 /* left section */
@@ -30,7 +40,7 @@ body{
     width: 45rem;
     background-color: #ffffff;
     text-align: center;
-    border-radius: 10px 00px 00px 10px;
+    /* border-radius: 10px 00px 00px 10px; */
 }
 .form h1, .logos, p, input{
     margin: 8px;
@@ -65,7 +75,7 @@ body{
     width: 45rem;
     background-color: #eb5368;
     color: #fef6fe;
-    border-radius: 00px 10px 10px 00px;
+    /* border-radius: 00px 10px 10px 00px; */
 }
 .desc h1{
     padding: 15px 83px;
